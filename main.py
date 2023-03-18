@@ -7,6 +7,7 @@ def parallel_processing(n, m, data):
     thread = []
     for i in range(n):
         thread.append(i)
+        thread[i] = 0
     
     moment = 0
     nextAvailable = 0
